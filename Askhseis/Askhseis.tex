@@ -388,7 +388,7 @@ The arrows we begin with concer solely the outermost square. Essentially what we
  To do this we take a functor $F:\cE \times \cC \to \cD$. Then, as above, we obtain a functor $F_{(-)}:\cE \to \cD^{\cC}$ as in $(c)$ we verify $\tilde{F}_{(-)}(E,C)=F_{(-)}(E,C)=F_E(C)=F(E,C)$. Now for morphisms $\tilde{F}_{(-)}(g,f)=\tilde{F}_{(-)}(g)_{C'} \tilde{F}_{(-)}(E)(f)=F(g,\id_{C'})F_E(f)=F(g,\id_{C'})F(\id_E,f)=F(g\id_E,\id_{C'},f)=F(g,f)$.\\
  For the opposite direction, take  $G:\cE \to \cD^{\cC}$ and obtain $\tilde{G}$ as before. Then consider $\tilde{G}_{(-)}:\cE \to \cD^{\cC}$ like in the previous construction. Take an object $E$ in $\cE$. Then $\tilde{G}_{(-)}(E)=\tilde{G}_E$ is a functor in $\cD^{\cC}$. We must show it is the same as $G(E)$. Take an arbitrary obect $C$ of $\cC$. Then $\tilde{G}_E(C)=\tilde{G}(E,C)=G(E)(C)$. Take a morphism $g:E\to E'$ and show $\tilde{G}_{(-)}$ and $G$ induce the same natural transformation. It suffices to take an arbitrary component, say at $C$,  and show they agree at that. $\tilde{G}_{(-)}$ induces $\Big( \tilde{G}(g,\id_C):\tilde{G}_E \to \tilde{G}_{E'} \Big)_{C\in \cC_0}$ the component at $C$ is $\tilde{G}(g,\id_C):\tilde{G}_E \to \tilde{G}_{E'}$. By the definition of $\tilde{G}$ we get $\tilde{G}(g,\id_C)=G(g)_C G(E)(\id_C):G(E)(C) \to G(E')(C)$.
  But $G(E)(\id_C)=\id_{G(E)(C)}$ so indeed we end up with $G(g)_C$ which is precisly the $C$-component of the natural transformation $G(g)$.
-
+%%
 \end{enumerate}
 
 \end{enumerate}
